@@ -1,0 +1,54 @@
+h1 {
+    color : rgb(255, 60, 0);
+    margin-left: 500px
+}
+
+body {
+    background-color: #ffe0a0;
+}
+.header{
+    background-color: rgba(248, 149, 36, 0.925);
+    display: flex;
+    justify-content: space-between;
+}
+p,h2{
+    text-align: center;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    flex-direction: column-reverse;
+}
+a:link{
+color: #d269a1;
+}
+a:visited{
+    color: #ffa9f1;
+}
+.menu{
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.menu a{
+    margin-left: 20px;
+}
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    opacity:0;
+}
+.item:hover img{
+opacity: 0.3;
+transform: scale(1.3);
+}
+.item:hover p{
+    opacity:1;
+}
